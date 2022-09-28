@@ -1,0 +1,10 @@
+path: D:/challenge/data/myvocdataset/VOCData  # dataset root dir
+train: train.txt  # train images (relative to 'path') 128 images
+val: val.txt  # val images (relative to 'path') 128 images
+test: test.txt  # test images (optional)
+
+# Classes
+
+nc: 20 # number of classes
+names: [ 'aeroplane', 'bicycle', 'bird', 'boat', 'bottle', 'bus', 'car', 'cat', 'chair', 'cow', 'diningtable', 'dog',
+         'horse', 'motorbike', 'person', 'pottedplant', 'sheep', 'sofa', 'train', 'tvmonitor' ] # class names
